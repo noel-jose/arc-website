@@ -247,6 +247,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding: 80px 0px;
 }
 #features i.fa {
   font-size: 38px;
@@ -259,6 +260,9 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features > h3, p {
+  text-align: start;
 }
 /* About Section */
 #about {
