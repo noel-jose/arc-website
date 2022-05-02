@@ -86,6 +86,16 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
+  position: relative;
+  top: -32px;
+}
+
+#menu a.navbar-brand > div {
+  display: flex;
+}
+#menu a.navbar-brand > div > div {
+  position: relative;
+  left: -20px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -205,45 +215,57 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
-  width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
-}
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
+  text-align: start;
+  margin-top: -100px;
+  margin-left: -330px;
 }
-.intro h1 span {
+/* .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
-}
+} */
 .intro p {
-  color: #fff;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
-  margin: 0 auto;
   margin-bottom: 60px;
+  margin-left: -330px;
+  max-width: 450px;
 }
+
+header .header-content {
+  display: flex;
+  align-items: center;
+}
+
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
 }
+
+.header-svg {
+  position: relative;
+  left: 300px;
+  width: 2280px;
+  aspect-ratio: 900 / 600;
+  /* width: 1980px;  
+  height: 1990px; */
+}
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -357,10 +379,11 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  background-color: #f6f6f6;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
-  padding: 0;
+  padding: 3px;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -461,6 +484,11 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+.caption > p {
+  text-align: center;
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -607,4 +635,20 @@ label {
   #about img {
     margin: 50px 0;
   }
+
+  .navbar-toggle {
+    margin-right: 140px;
+    overflow: hidden;
+  }
+
+
+
+  header {
+    margin: 0 auto;
+  }
+
+  .header-svg {
+    visibility: hidden;
+  }
+
 }
