@@ -74,6 +74,7 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
+  
 }
 #menu.navbar-default {
   background-color: #fff;
@@ -81,6 +82,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
+  margin: 0 -150px;
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -100,9 +102,9 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
-  font-size: 15px;
-  font-weight: 400;
+  color: rgb(63, 62, 62);
+  font-size: 14px;
+  font-weight: 600;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
