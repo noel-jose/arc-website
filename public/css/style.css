@@ -232,9 +232,9 @@ a:focus,
   font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: start;
-  margin-top: -100px;
-  margin-left: -330px;
+  text-align: center;
+  /* margin-top: -100px;
+  margin-left: -330px; */
 }
 /* .intro h1 span {
   font-weight: 800;
@@ -244,8 +244,9 @@ a:focus,
   font-weight: 300;
   line-height: 30px;
   margin-bottom: 60px;
-  margin-left: -330px;
-  max-width: 450px;
+  text-align: center;
+  /* margin-left: -330px;
+  max-width: 450px; */
 }
 
 header .header-content {
@@ -254,8 +255,8 @@ header .header-content {
 }
 
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
