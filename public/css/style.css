@@ -83,11 +83,21 @@ hr {
 }
 
 
-@media screen and (max-width: 600px) {
-    #menu .navbar-text h3{
-    
+/* @media screen and (max-width: 600px) {
+  /* .navbar-text h3{
+      margin-left:40px;
+      margin-top : 0px;
+      margin-bottom: 5px;
   }
-}
+  .navbar-text h6{
+    
+} */ 
+  .navbar-text{
+    margin-left:40px;
+    margin-top : 0px;
+  }
+
+/* } */
 #menu a.navbar-brand {
   margin: 0 -150px;
   font-family: "Raleway", sans-serif;
