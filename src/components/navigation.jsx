@@ -20,7 +20,7 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <div>
               <img width="130px" height="auto" src={arcLogo} alt="" />
-              <div>
+              <div className="navbar-text">
                 <h3>Alumni Relations Cell</h3>
                 <h6>College of Engineering Chengannur</h6>
               </div>
