@@ -6,7 +6,9 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Gallery</h2>
-          <p>Check our gallery from the recent events.</p>
+          <p style={{ textAlign: "center" }}>
+            Check our gallery from the recent events.
+          </p>
         </div>
         <div className="row">
           <div className="portfolio-items">
